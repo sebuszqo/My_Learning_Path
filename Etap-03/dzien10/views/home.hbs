@@ -1,0 +1,13 @@
+{{#with person}}
+    <h1>Hello {{ firstName }} {{lastName}} masz {{age}} </h1>
+{{/with}}
+<ul>
+
+    {{#each dates}}
+        <li>{{this}}</li>
+    {{else}}
+        <li>Brak wyników</li>
+    {{/each}}
+</ul>
+
+{{> share}}

@@ -1,0 +1,23 @@
+<h1>Configure your cookie with us!</h1>
+
+<div id="selection">
+    {{#if (falsy cookie.base)}}
+        {{> base-selector}}
+    {{/if}}
+    <h2>Select cookie addons:</h2>
+    {{#each addons}}
+        <a href="/config/select-addons/{{this.[0]}}">
+            <li>{{this.[0]}} for {{pricify this.[1]}} PLN</li>
+        </a>
+    {{/each}}
+</div>
+
+{{#if (falsy cookie.base)}}
+    {{> cookie-prev}}
+    {{> addons}}
+{{else}}
+    <h3><strong>Please select base of your cookie to see preview and price summary</strong></h3>
+    <div id="selection">
+        {{> base-selector}}
+    </div>
+{{/if}}
