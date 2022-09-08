@@ -56,3 +56,9 @@ li {
     color: red;
     max-width: 900px;
 }
+.error{
+    border: 1px solid red;
+    padding: 40px;
+    background-color: #bf5858;
+    text-align: center;
+}
