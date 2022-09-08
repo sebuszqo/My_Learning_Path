@@ -125,3 +125,8 @@ li {
     margin-top: 2%;
     text-transform: uppercase;
 }
+.success{
+    border: 1px solid green;
+    padding: 15px;
+    background-color: #b5e3b5;
+}
