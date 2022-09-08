@@ -4,7 +4,7 @@ const {orderRouter} = require('../dzien12-projekt-nr1/routes/order');
 const {configuratorRouter} = require('../dzien12-projekt-nr1/routes/configurator');
 const {homeRouter} = require('../dzien12-projekt-nr1/routes/home');
 const {engine} = require("express-handlebars");
-const path = require("path");
+// const path = require("path");
 const {handlebarsHelpers} = require("./handlebars-helpers");
 
 const app = express();
