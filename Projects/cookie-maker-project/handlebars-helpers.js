@@ -19,6 +19,9 @@ const handlebarsHelpers = {
     },
     isNotInArray: (arr, el) =>{
         return !arr.includes(el);
+    },
+    isInArray: (arr, el) =>{
+        return arr.includes(el);
     }
 
 }

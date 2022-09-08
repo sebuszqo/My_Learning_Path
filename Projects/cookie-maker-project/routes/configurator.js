@@ -53,12 +53,11 @@ configuratorRouter
     })
     .get('/remove-addon/:addonRemove', (req,res)=>{
         const {addonRemove} = req.params;
-        console.log(addonRemove)
+
         const {cookieAddons} = req.cookies;
-        console.log(cookieAddons)
+
         const addons = (cookieAddons ? JSON.parse(cookieAddons) : []).filter(addon => addon !== addonRemove);
-        // addons.filter(addon => addon !== addonRemove);
-        console.log(addons)// filter (let exist) only all elements that are not this which we want to remove
+        // addons.filter(addon => addon !== addonRemove); // filter (let exist) only all elements that are not this which we want to remove
         res.cookie('cookieAddons', JSON.stringify(addons));
         res.render('configurator/removed', {addonRemove})
     })
