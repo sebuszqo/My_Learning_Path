@@ -1,8 +1,8 @@
 const express = require('express');
 const cookieParser = require('cookie-parser');
-const {orderRouter} = require('../dzien12-projekt-nr1/routes/order');
-const {configuratorRouter} = require('../dzien12-projekt-nr1/routes/configurator');
-const {homeRouter} = require('../dzien12-projekt-nr1/routes/home');
+const {orderRouter} = require('../cookie-maker-project/routes/order');
+const {configuratorRouter} = require('../cookie-maker-project/routes/configurator');
+const {homeRouter} = require('../cookie-maker-project/routes/home');
 const {engine} = require("express-handlebars");
 // const path = require("path");
 const {handlebarsHelpers} = require("./handlebars-helpers");

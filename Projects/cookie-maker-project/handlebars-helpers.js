@@ -14,10 +14,11 @@ const handlebarsHelpers = {
     pricify: price => price.toFixed(2),
     falsy: (cookieBase) => {
         // console.log(cookieBase)
-        if (cookieBase === 'undefined') {
-            return false
-        }
-        return true
+        return cookieBase !== 'undefined';
+
+    },
+    isNotInArray: (arr, el) =>{
+        return !arr.includes(el);
     }
 
 }

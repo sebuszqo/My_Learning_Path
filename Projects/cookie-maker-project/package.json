@@ -1,0 +1,9 @@
+{
+  "name": "cookie-maker-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
+  }
+}

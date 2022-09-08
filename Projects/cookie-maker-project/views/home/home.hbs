@@ -6,9 +6,11 @@
     {{/if}}
     <h2>Select cookie addons:</h2>
     {{#each addons}}
+     {{#if (isNotInArray @root.cookie.addons this.[0])}} <!-- remove addons that had been added before -->
         <a href="/config/select-addons/{{this.[0]}}">
             <li>{{this.[0]}} for {{pricify this.[1]}} PLN</li>
         </a>
+        {{/if}}
     {{/each}}
 </div>
 
