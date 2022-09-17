@@ -1,0 +1,27 @@
+{
+  "name": "Stage-03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebuszqo/My-Learning-Path.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebuszqo/My-Learning-Path/issues"
+  },
+  "homepage": "https://github.com/sebuszqo/My-Learning-Path#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-rate-limit": "^6.5.1",
+    "node-fetch": "^3.2.10"
+  }
+}
