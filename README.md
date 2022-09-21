@@ -12,3 +12,5 @@
 - Link: https://github.com/sebuszqo/Projects
 
 - I've started: 21.03.2022
+
+<div> My notes: </div>
