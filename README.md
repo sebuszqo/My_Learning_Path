@@ -14,5 +14,5 @@
 - I've started: 21.03.2022
 
 <div> My notes:
-<a href="https://tidy-blade-bbc.notion.site/Etap-2-node-js-f62b3beb49ef4f84ab1328827668f248">Stage-02-Node.js</a>
+- <a href="https://tidy-blade-bbc.notion.site/Etap-2-node-js-f62b3beb49ef4f84ab1328827668f248">Stage-02-Node.js</a>
 </div>
