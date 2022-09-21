@@ -1,7 +1,7 @@
 <h1 align='center'> My-Learning-Path </h1>
 
-<h3 align='center'> Here I am making public almost every piece of code that I've written during learning: </h5>
-<h5 align='center'> JavaScript Node.js  Express.js  MYSQL & MongoDB  TypeScript  React  NestJS </h5>
+<h2 align='center'> Here I am making public almost every piece of code that I've written during learning: </h2>
+<h4 align='center'> JavaScript Node.js  Express.js  MYSQL & MongoDB  TypeScript  React  NestJS </h4>
 
 - Each stage is divided into approximately 30 days of learning new things, part of the code that I wrote during learning is in this repository.
 
