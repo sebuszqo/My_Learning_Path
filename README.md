@@ -13,7 +13,7 @@
 
 - I've started: 21.03.2022
 
-- My notes:
+- My notes (PL):
   - <a href="https://tidy-blade-bbc.notion.site/Stage-2-node-js-f62b3beb49ef4f84ab1328827668f248">Stage-02-Node.js</a>
   - <a href="https://tidy-blade-bbc.notion.site/Stage-3-Express-js-ea8f922edf8c43adadc14f51ad6bf6a7">Stage-03-Express.js</a>
 
