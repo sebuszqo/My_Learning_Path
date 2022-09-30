@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  },
+  "name": "stage-04-(data-bases)",
+  "version": "1.0.0",
+  "main": "dzien13.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
