@@ -1,0 +1,21 @@
+<h2>Editing your task:</h2>
+<p>
+<form method="post" action="/todo/{{foundTodoObj.id}}?_method=PUT">
+    <label>
+        <p>
+            Description
+        </p>
+        <p>
+            <textarea name="title">{{foundTodoObj.title}}</textarea>
+        </p>
+        <p>
+            Task Date: <input type="date" name="timeToGo" value="{{foundTodoObj.timeToGo}}">
+        </p>
+    </label>
+    <p>
+        <button style="padding: 15px; background-color: skyblue;" ; type="submit">Save</button>
+    </p>
+</form>
+</p>
+
+{{>go-home}}

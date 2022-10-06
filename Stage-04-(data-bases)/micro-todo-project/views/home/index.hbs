@@ -1,0 +1,23 @@
+<h2>Lista rzeczy do zrobienia</h2>
+<ol>
+    {{#each todos}}
+        <p>
+            <li>
+        <p><strong>Task:</strong> {{this.title}}</p>
+        <p><strong>Due to:</strong> {{this.timeToGo}}</p>
+        <form method="post" action="/todo/{{this.id}}?_method=DELETE">
+            <button type="submit">Delete</button>
+        </form>
+        <form method="get" action="/todo/form/update/{{this.id}}">
+            <button type="submit">Edit</button>
+        </form>
+        </li>
+        </p>
+    {{/each}}
+</ol>
+<br>
+<p>
+<form method="get" action="/todo/form/add">
+    <button type="submit">Dodaj nowe zadanie</button>
+</form>
+</p>
