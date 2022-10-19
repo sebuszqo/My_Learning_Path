@@ -4,6 +4,7 @@
     "express-handlebars": "^6.0.6",
     "hbs": "^4.2.0",
     "method-override": "^3.0.0",
+    "mongodb": "^4.10.0",
     "mysql2": "^2.3.3",
     "uuid": "^9.0.0"
   },
