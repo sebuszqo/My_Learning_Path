@@ -53,3 +53,5 @@ function random(): null | number {
 }
 
 console.log(random())
+
+const foobar7: number[] | string [] = ['sss']

@@ -39,4 +39,5 @@ function random() {
     return Math.random() < 0.6 ? null : Math.random();
 }
 console.log(random());
+const foobar7 = ['sss'];
 //# sourceMappingURL=index.js.map
