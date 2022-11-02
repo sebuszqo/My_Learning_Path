@@ -1,4 +1,4 @@
-// tsnd index.ts
+// tsnd interfejsy.ts
 const bool: boolean = true;
 const num: number = 22;
 const string: string = 'string';
