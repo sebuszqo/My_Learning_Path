@@ -64,7 +64,7 @@ const person: Person2 = {
     },
 }
 
-function dateOfBirth(person: Person2) {
-    const dateOfbirth = new Date().getFullYear() - person.age
-    console.log(`${person.name} was born in ${dateOfbirth}`)
+function dateOfBirth(person: Person2): string {
+    const dateOfBirth = new Date().getFullYear() - person.age
+    return (`${person.name} was born in ${dateOfBirth}`)
 }

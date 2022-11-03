@@ -40,7 +40,7 @@ const person = {
     },
 };
 function dateOfBirth(person) {
-    const dateOfbirth = new Date().getFullYear() - person.age;
-    console.log(`${person.name} was born in ${dateOfbirth}`);
+    const dateOfBirth = new Date().getFullYear() - person.age;
+    return (`${person.name} was born in ${dateOfBirth}`);
 }
 //# sourceMappingURL=interfejsy.js.map
