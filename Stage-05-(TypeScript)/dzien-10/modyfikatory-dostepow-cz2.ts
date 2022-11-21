@@ -19,6 +19,7 @@ class Human3 extends Animal3 {
 
     addLifeEvents(eventName: string): void {
         this.lifeEvents.push(eventName)
+        this.checkName()
     }
 
     getLifeEvents(): string[] {
@@ -28,6 +29,10 @@ class Human3 extends Animal3 {
 
     foobar(): string {
         return this.spieceName
+    }
+
+    private checkName() {
+        console.log('To twoje imię: ', this.name)
     }
 }
 

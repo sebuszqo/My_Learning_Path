@@ -14,6 +14,7 @@ class Human3 extends Animal3 {
     }
     addLifeEvents(eventName) {
         this.lifeEvents.push(eventName);
+        this.checkName();
     }
     getLifeEvents() {
         return this.lifeEvents.filter(s => s !== 'Kompromitacja');
@@ -21,6 +22,9 @@ class Human3 extends Animal3 {
     }
     foobar() {
         return this.spieceName;
+    }
+    checkName() {
+        console.log('To twoje imię: ', this.name);
     }
 }
 const michal2 = new Human3('michal', 'k');
