@@ -16,5 +16,6 @@
 - My notes (PL):
   - <a href="https://tidy-blade-bbc.notion.site/Stage-2-node-js-f62b3beb49ef4f84ab1328827668f248">Stage-02-Node.js</a>
   - <a href="https://tidy-blade-bbc.notion.site/Stage-3-Express-js-ea8f922edf8c43adadc14f51ad6bf6a7">Stage-03-Express.js</a>
-  - <a href="https://tidy-blade-bbc.notion.site/Stage-4-Bazy-Danych-c97375562df84fd396883779320757ae">Stage-03-DataBases- MySQL - MongoDB</a>
+  - <a href="https://tidy-blade-bbc.notion.site/Stage-4-Bazy-Danych-c97375562df84fd396883779320757ae">Stage-04-DataBases- MySQL - MongoDB</a>
+  - <a href="https://tidy-blade-bbc.notion.site/Stage-5-TypeScript-1fd3a999fc5948eaa3d7bed24dec6c04">Stage-05-TypeScript</a>
 
