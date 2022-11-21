@@ -9,12 +9,15 @@ class Animal3 {
 
 
 class Human3 extends Animal3 {
-
     private lifeEvents: string[] = [];
     private isAlive: true;
 
     constructor(public readonly name: string, public readonly surname: string) {
         super('human')
+    }
+
+    alive(alive: any) {
+        throw new Error("Method not implemented.");
     }
 
     addLifeEvents(eventName: string): void {

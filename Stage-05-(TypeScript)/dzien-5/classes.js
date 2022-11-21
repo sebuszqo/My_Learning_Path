@@ -1,4 +1,5 @@
-class Person {
+// @ts-ignore
+class PersonX {
     // history: string[] = [];
     constructor(name, age) {
         this.surname = '';
@@ -6,8 +7,9 @@ class Person {
         this.age = age;
     }
 }
-const michal = new Person('Michał', 20);
+const michal = new PersonX('Michał', 20);
 console.log(michal);
+// @ts-ignore
 class User1 {
     constructor(name, surname, age) {
         this.name = name;

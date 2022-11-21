@@ -13,7 +13,8 @@ interface HistoryUser {
     history: HistoryEntry[];
 }
 
-class Person implements Human, HistoryUser {
+// @ts-ignore
+class PersonX implements Human, HistoryUser {
     name: string;
     age: number;
     surname: string = '';
@@ -31,7 +32,7 @@ class Person implements Human, HistoryUser {
 
 }
 
-const michal = new Person('Michał', 20)
+const michal = new PersonX('Michał', 20)
 console.log(michal)
 
 
@@ -40,6 +41,7 @@ interface HumanWithRole extends Human {
     role: string;
 }
 
+// @ts-ignore
 class User1 implements Human, HistoryUser {
     age: number;
     name: string;

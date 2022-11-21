@@ -12,6 +12,9 @@ class Human3 extends Animal3 {
         this.surname = surname;
         this.lifeEvents = [];
     }
+    alive(alive) {
+        throw new Error("Method not implemented.");
+    }
     addLifeEvents(eventName) {
         this.lifeEvents.push(eventName);
         this.checkName();

@@ -29,6 +29,7 @@ const personA: Person = {
 //
 // console.log(personA === personB)
 
+// @ts-ignore
 function greet(person: Person) {
     console.log(`Hello, ${person.age}`)
 }
