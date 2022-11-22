@@ -5,5 +5,6 @@ class Animal5 {
     }
 }
 // no i cant do it cuz of abstract
+// @ts-ignore
 const duck = new Animal5("duck");
 //# sourceMappingURL=klasy-abstrakcyjne.js.map
