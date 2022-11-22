@@ -14,7 +14,8 @@ class Human4 extends Animal4 {
     }
 
     get lifeEvents(): string[] {
-        // we can copy our array and return it
+        // we can copy our array and return it as a copy
+        // cuz when we try push on .lifeEvents.push() - we are pushing not by a method to addLiveEvents but normal push - so that would be different thing
         // return [...this.lifeEventsList].filter(s => s !== 'Kompromitacja')
         return this.lifeEventsList.filter(s => s !== 'Kompromitacja')
         // return this.lifeEvents
