@@ -1,3 +1,4 @@
+// @ts-ignore
 import {addDays} from "date-fns";
 import {} from 'express';
 
