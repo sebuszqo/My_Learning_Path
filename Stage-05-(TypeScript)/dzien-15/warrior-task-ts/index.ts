@@ -1,5 +1,5 @@
-import {Warrior} from "./warrior";
-import {Arena} from "./arena";
+import {Warrior} from "./libs/warrior";
+import {Arena} from "./libs/arena";
 
 const fighter1 = new Warrior('Baba Yaga', 9, 120);
 const fighter2 = new Warrior('Yanosik', 7, 140);
