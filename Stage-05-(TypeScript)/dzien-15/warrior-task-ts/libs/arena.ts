@@ -2,7 +2,7 @@ import {Warrior} from "./warrior";
 
 export class Arena {
     private activeWarrior: number = 2
-    constructor(public warrior1: Warrior, public warrior2:Warrior) {
+    constructor(private warrior1: Warrior, private warrior2:Warrior) {
 
     }
     // I dont need it in ts only in js - cuz ts will check it anyway

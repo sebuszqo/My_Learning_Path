@@ -2,22 +2,22 @@
 
 
 export class Warrior {
-    constructor(public name:string, public hitPoints:number, public hp:number) {
+    constructor(private name:string, private hitPoints:number, private hp:number) {
     }
 
-    setHp(hp:number): void {
+    setHp(hp:number) {
         this.hp = hp;
     }
 
-    getHp() {
+    getHp():number {
         return this.hp;
     }
 
-    getHitPoints() {
+    getHitPoints():number {
         return this.hitPoints;
     }
 
-    getName() {
+    getName():string {
         return this.name;
     }
 
