@@ -1,7 +1,12 @@
 import {Warrior} from "./warrior";
 
+enum ActiveWarrior {
+    First,
+    Second,
+}
+
 export class Arena {
-    private activeWarrior: number = 2
+    private activeWarrior: number = ActiveWarrior.Second
     constructor(private warrior1: Warrior, private warrior2:Warrior) {
 
     }
@@ -14,8 +19,8 @@ export class Arena {
     // }
 
     fight():Warrior | null {
-        const attacker = this.activeWarrior === 1 ? this.warrior1 : this.warrior2;
-        const attacked = this.activeWarrior === 1 ? this.warrior2 : this.warrior1;
+        const attacker = this.activeWarrior === ActiveWarrior.First ? this.warrior1 : this.warrior2;
+        const attacked = this.activeWarrior === ActiveWarrior.First ? this.warrior2 : this.warrior1;
 
         const attackingHitPoints = attacker.getHitPoints();
         const attackedOldHp = attacked.getHp();
@@ -25,7 +30,7 @@ export class Arena {
 
         attacked.setHp(attackedNewHp);
 
-        this.activeWarrior = this.activeWarrior === 1 ? 2 : 1;
+        this.activeWarrior = this.activeWarrior === ActiveWarrior.First ? ActiveWarrior.Second : ActiveWarrior.First;
         /**
          if (this.activeWarrior === 1) {
         this.activeWarrior = 2;

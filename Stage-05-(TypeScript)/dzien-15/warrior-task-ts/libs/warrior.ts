@@ -1,6 +1,3 @@
-
-
-
 export class Warrior {
     constructor(private name:string, private hitPoints:number, private hp:number) {
     }
