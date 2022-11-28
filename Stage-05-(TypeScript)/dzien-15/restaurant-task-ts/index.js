@@ -1,10 +1,11 @@
-import { Restaurant } from "./restaurant.ts";
+import { Restaurant } from "./restaurant";
+import { RestaurantEvents } from "./types/events";
 const megaRestaurant = new Restaurant();
 let tablesCount = 25;
 megaRestaurant
-    .on('open', () => console.log('Otwarto restaurację.'))
-    .on('close', () => console.log('Zamknięto restaurację.'))
-    .on('tableCountUpdate', change => {
+    .on(RestaurantEvents.Open, () => console.log('Otwarto restaurację.'))
+    .on(RestaurantEvents.Close, () => console.log('Zamknięto restaurację.'))
+    .on(RestaurantEvents.TableCountUpdate, (change) => {
     tablesCount += change;
     console.log(`Dostepnych stolików ${tablesCount}.`);
 });

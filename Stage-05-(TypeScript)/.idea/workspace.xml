@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76ec8aec-eae2-402a-80ca-03d88437437f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2I95K24biwbQBWFEFIVzYqwcw6t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/sebuszqo/Desktop/My-Learning-Path/Stage-05-(TypeScript)/dzien-15/warrior-task-ts/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76ec8aec-eae2-402a-80ca-03d88437437f" name="Changes" comment="" />
+      <created>1669580890317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669580890317</updated>
+      <workItem from="1669580891402" duration="3747000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/dzien-3/index.js" />
+        <option value="$PROJECT_DIR$/dzien-3/index.js.map" />
+        <option value="$PROJECT_DIR$/dzien-1/index.js" />
+        <option value="$PROJECT_DIR$/dzien-1/index.js.map" />
+        <option value="$PROJECT_DIR$/dzien-4/interfejsy.js" />
+        <option value="$PROJECT_DIR$/dzien-4/interfejsy.js.map" />
+        <option value="$PROJECT_DIR$/dzien-5/interfejsy.js" />
+        <option value="$PROJECT_DIR$/dzien-5/interfejsy.js.map" />
+        <option value="$PROJECT_DIR$/dzien-5/classes.js" />
+        <option value="$PROJECT_DIR$/dzien-5/classes.js.map" />
+        <option value="$PROJECT_DIR$/dzien-5/littlehome.js" />
+        <option value="$PROJECT_DIR$/dzien-5/littlehome.js.map" />
+        <option value="$PROJECT_DIR$/dzien-6/task1.js" />
+        <option value="$PROJECT_DIR$/dzien-6/task1.js.map" />
+        <option value="$PROJECT_DIR$/dzien-6/task2.js" />
+        <option value="$PROJECT_DIR$/dzien-6/task2.js.map" />
+        <option value="$PROJECT_DIR$/dzien-6/task3.js" />
+        <option value="$PROJECT_DIR$/dzien-6/task3.js.map" />
+        <option value="$PROJECT_DIR$/dzien-7/task1.js" />
+        <option value="$PROJECT_DIR$/dzien-7/task1.js.map" />
+        <option value="$PROJECT_DIR$/dzien-7/task2.js" />
+        <option value="$PROJECT_DIR$/dzien-7/task2.js.map" />
+        <option value="$PROJECT_DIR$/dzien-7/task3.js" />
+        <option value="$PROJECT_DIR$/dzien-7/task3.js.map" />
+        <option value="$PROJECT_DIR$/dzien-8/task1.js" />
+        <option value="$PROJECT_DIR$/dzien-8/task1.js.map" />
+        <option value="$PROJECT_DIR$/dzien-12/enum.js" />
+        <option value="$PROJECT_DIR$/dzien-12/enum.js.map" />
+        <option value="$PROJECT_DIR$/dzien-11/typy-generyczne.js" />
+        <option value="$PROJECT_DIR$/dzien-11/typy-generyczne.js.map" />
+        <option value="$PROJECT_DIR$/dzien-11/klasy-abstrakcyjne.js" />
+        <option value="$PROJECT_DIR$/dzien-11/klasy-abstrakcyjne.js.map" />
+        <option value="$PROJECT_DIR$/dzien-11/getters-setters.js" />
+        <option value="$PROJECT_DIR$/dzien-11/getters-setters.js.map" />
+        <option value="$PROJECT_DIR$/dzien-10/modyfikatory-dostepow-cz2.js" />
+        <option value="$PROJECT_DIR$/dzien-10/modyfikatory-dostepow-cz2.js.map" />
+        <option value="$PROJECT_DIR$/dzien-10/modyfikatory-dostepow-cz1.js" />
+        <option value="$PROJECT_DIR$/dzien-10/modyfikatory-dostepow-cz1.js.map" />
+        <option value="$PROJECT_DIR$/dzien-9/classesv2.js" />
+        <option value="$PROJECT_DIR$/dzien-9/classesv2.js.map" />
+        <option value="$PROJECT_DIR$/dzien-13/todo/index.js" />
+        <option value="$PROJECT_DIR$/dzien-13/todo/index.js.map" />
+        <option value="$PROJECT_DIR$/dzien-13/todo/types/index.js" />
+        <option value="$PROJECT_DIR$/dzien-13/todo/types/index.js.map" />
+        <option value="$PROJECT_DIR$/dzien-13/todo/libs/todo-lib.js" />
+        <option value="$PROJECT_DIR$/dzien-13/todo/libs/todo-lib.js.map" />
+        <option value="$PROJECT_DIR$/dzien-13/todo/libs/todo-lib.mjs" />
+        <option value="$PROJECT_DIR$/dzien-13/todo/types/todo.js" />
+        <option value="$PROJECT_DIR$/dzien-13/todo/types/todo.js.map" />
+        <option value="$PROJECT_DIR$/dzien-13/types/index.js" />
+        <option value="$PROJECT_DIR$/dzien-13/types/index.js.map" />
+        <option value="$PROJECT_DIR$/dzien-13/types/single-todo.js" />
+        <option value="$PROJECT_DIR$/dzien-13/types/single-todo.js.map" />
+        <option value="$PROJECT_DIR$/dzien-13/types/gender.js" />
+        <option value="$PROJECT_DIR$/dzien-13/types/gender.js.map" />
+        <option value="$PROJECT_DIR$/dzien-13/export.js" />
+        <option value="$PROJECT_DIR$/dzien-13/export.js.map" />
+        <option value="$PROJECT_DIR$/dzien-9/classes.js" />
+        <option value="$PROJECT_DIR$/dzien-9/classes.js.map" />
+        <option value="$PROJECT_DIR$/dzien-13/index.js" />
+        <option value="$PROJECT_DIR$/dzien-13/index.js.map" />
+        <option value="$PROJECT_DIR$/dzien-14/index.js" />
+        <option value="$PROJECT_DIR$/dzien-14/index.js.map" />
+        <option value="$PROJECT_DIR$/dzien-14/decorators.js" />
+        <option value="$PROJECT_DIR$/dzien-14/decorators.js.map" />
+        <option value="$PROJECT_DIR$/dzien-14/task.js" />
+        <option value="$PROJECT_DIR$/dzien-14/task.js.map" />
+        <option value="$PROJECT_DIR$/dzien-15/restaurant-task-ts/index.js" />
+        <option value="$PROJECT_DIR$/dzien-15/restaurant-task-ts/index.js.map" />
+        <option value="$PROJECT_DIR$/dzien-15/restaurant-task-ts/restaurant.js.map" />
+        <option value="$PROJECT_DIR$/dzien-15/restaurant-task-ts/restaurant.mjs" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
