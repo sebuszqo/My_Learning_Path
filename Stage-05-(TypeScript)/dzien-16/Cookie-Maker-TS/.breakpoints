@@ -1,6 +1,6 @@
 {
   "files": {
-    "routes/configurator.js": [
+    "routes/configurator.ts": [
       {
         "id": "8e25fc68-ed2e-4b65-9839-b49b3b0f582c",
         "line": 3,

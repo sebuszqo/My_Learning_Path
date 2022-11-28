@@ -1,6 +1,9 @@
-const express = require('express');
-const cookieParser = require('cookie-parser');
-const hbs = require('express-handlebars');
+import * as express from 'express';
+
+import * as cookieParser from 'cookie-parser';
+
+import * as hbs from 'express-handlebars';
+
 const {HomeRouter} = require("./routes/home");
 const {ConfiguratorRouter} = require("./routes/configurator");
 const {OrderRouter} = require("./routes/order");

@@ -8,6 +8,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "outDir": "dist",
+    "moduleResolution": "Node",
     "lib": [
       "dom",
       "es6",
