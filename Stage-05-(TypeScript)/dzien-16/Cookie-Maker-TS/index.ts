@@ -1,61 +1,82 @@
 import * as express from 'express';
-
+import {static as expressStatic, json, Application, Response, Request} from "express";
 import * as cookieParser from 'cookie-parser';
-
+import {engine} from "express-handlebars";
 import * as hbs from 'express-handlebars';
 
-const {HomeRouter} = require("./routes/home");
-const {ConfiguratorRouter} = require("./routes/configurator");
-const {OrderRouter} = require("./routes/order");
-const {handlebarsHelpers} = require("./utils/handlebars-helpers");
-const {COOKIE_BASES, COOKIE_ADDONS} = require("./data/cookies-data");
+// import {HomeRouter} from "./routes/home";
+import {ConfiguratorRouter} from "./routes/configurator";
 
-class CookieMakerApp {
+// import {OrderRouter} from "./routes/order";
+
+import {handlebarsHelpers} from "./utils/handlebars-helpers";
+
+import {COOKIE_BASES, COOKIE_ADDONS} from "./data/cookies-data";
+import {Entries} from "./types/entries";
+
+
+export class CookieMakerApp {
+    private app: Application;
+    private data = {
+        COOKIE_BASES,
+        COOKIE_ADDONS,
+
+    }
+
     constructor() {
-        this._loadData();
         this._configureApp();
         this._setRoutes();
         this._run();
     }
 
-    _configureApp() {
+    _configureApp(): void {
         this.app = express();
 
-        this.app.use(express.json());
-        this.app.use(express.static('public'));
+        this.app.use(json());
+        this.app.use(expressStatic('public'));
         this.app.use(cookieParser());
-        this.app.engine('.hbs', hbs({
+        this.app.engine('.hbs', engine({
             extname: '.hbs',
             helpers: handlebarsHelpers,
         }));
         this.app.set('view engine', '.hbs');
     }
 
-    _setRoutes() {
-        this.app.use('/', new HomeRouter(this).router);
+    _setRoutes(): void {
+        // this.app.use('/', new HomeRouter(this).router);
         this.app.use('/configurator', new ConfiguratorRouter(this).router);
-        this.app.use('/order', new OrderRouter(this).router);
+        // this.app.use('/order', new OrderRouter(this).router);
     }
 
-    _run() {
+    _run(): void {
         this.app.listen(3000, '0.0.0.0', () => {
-            console.log('Listening on :3000');
+            console.log('Listening on http://localhost:3000');
         });
     }
 
-    showErrorPage(res, description) {
+    showErrorPage(res: Response, description: string): void {
         res.render('error', {
             description,
         });
     }
 
-    getAddonsFromReq(req) {
-        const {cookieAddons} = req.cookies;
+    getAddonsFromReq(req: Request): string[] {
+        const {cookieAddons} = req.cookies as {
+            cookieAddons: string,
+        };
         return cookieAddons ? JSON.parse(cookieAddons) : [];
     }
 
-    getCookieSettings(req) {
-        const {cookieBase: base} = req.cookies;
+    getCookieSettings(req: Request): {
+        addons: string[],
+        base: string | undefined,
+        sum: number,
+        allBases: Entries
+        allAddons: Entries
+    } {
+        const {cookieBase: base} = req.cookies as {
+            cookieBase: string | undefined,
+        };
 
         const addons = this.getAddonsFromReq(req);
 
@@ -81,12 +102,6 @@ class CookieMakerApp {
         };
     }
 
-    _loadData() {
-        this.data = {
-            COOKIE_BASES,
-            COOKIE_ADDONS,
-        };
-    }
 }
 
 new CookieMakerApp();

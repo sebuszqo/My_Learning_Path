@@ -1,5 +1,7 @@
-const handlebarsHelpers = {
-    findPrice: (entries, selectedItem) => {
+import {Entries} from "../types/entries";
+
+export const handlebarsHelpers = {
+    findPrice: (entries: Entries, selectedItem: string) => {
         const found = entries.find(el => el[0] === selectedItem);
 
         if (!found) {
@@ -10,13 +12,9 @@ const handlebarsHelpers = {
         return price;
     },
 
-    pricify: price => price.toFixed(2),
+    pricify: (price: number): string => price.toFixed(2),
 
-    isNotInArray: (array, element) => !array.includes(element),
+    isNotInArray: <T>(array: T[], element: T): boolean => !array.includes(element),
 
-    isInArray: (array, element) => array.includes(element),
+    isInArray: <T>(array: T[], element: T): boolean => array.includes(element),
 };
-
-module.exports = {
-    handlebarsHelpers,
-}
