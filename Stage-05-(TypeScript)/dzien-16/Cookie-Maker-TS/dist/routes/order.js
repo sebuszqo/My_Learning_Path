@@ -1,6 +1,9 @@
-const express = require('express');
-class OrderRouter {
+import { Router } from "express";
+export class OrderRouter {
     constructor(cmapp) {
+        this.cmapp = cmapp;
+        this.router = Router();
+        this.urlPrefix = '/order';
         this.sumary = (req, res) => {
             const { sum, addons, base, allBases, allAddons } = this.cmapp.getCookieSettings(req);
             res.render('order/summary', {
@@ -22,8 +25,6 @@ class OrderRouter {
                 sum,
             });
         };
-        this.cmapp = cmapp;
-        this.router = express.Router();
         this.setUpRoutes();
     }
     setUpRoutes() {
@@ -31,7 +32,4 @@ class OrderRouter {
         this.router.get('/thanks', this.thanks);
     }
 }
-module.exports = {
-    OrderRouter,
-};
 //# sourceMappingURL=order.js.map

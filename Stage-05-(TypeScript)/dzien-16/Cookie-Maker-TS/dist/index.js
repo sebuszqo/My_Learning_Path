@@ -7,12 +7,15 @@ import { ConfiguratorRouter } from "./routes/configurator";
 // import {OrderRouter} from "./routes/order";
 import { handlebarsHelpers } from "./utils/handlebars-helpers";
 import { COOKIE_BASES, COOKIE_ADDONS } from "./data/cookies-data";
+import { HomeRouter } from "./routes/home";
+import { OrderRouter } from "./routes/order";
 export class CookieMakerApp {
     constructor() {
         this.data = {
             COOKIE_BASES,
             COOKIE_ADDONS,
         };
+        this.routers = [HomeRouter, ConfiguratorRouter, OrderRouter];
         this._configureApp();
         this._setRoutes();
         this._run();
@@ -29,8 +32,13 @@ export class CookieMakerApp {
         this.app.set('view engine', '.hbs');
     }
     _setRoutes() {
-        // this.app.use('/', new HomeRouter(this).router);
-        this.app.use('/configurator', new ConfiguratorRouter(this).router);
+        // better way to deal with express routers
+        for (const router of this.routers) {
+            const obj = new router(this);
+            this.app.use(obj.urlPrefix, obj.router);
+        }
+        // this.app.use(HomeRouter.urlPrefix, new HomeRouter(this).router);
+        // this.app.use(ConfiguratorRouter.urlPrefix, new ConfiguratorRouter(this).router);
         // this.app.use('/order', new OrderRouter(this).router);
     }
     _run() {
