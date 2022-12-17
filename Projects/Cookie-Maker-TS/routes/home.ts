@@ -1,7 +1,8 @@
 import {Response, Request, Router} from "express";
 import {CookieMakerApp} from "../index";
 import {MyRouter} from "../types/my-router";
-import {rest} from "../decorators/rest.decorators";
+import {get, rest} from "../decorators/rest.decorators";
+import {RestDecoratorInfo} from "../types/rest-decorator";
 
 const express = require('express');
 
@@ -14,10 +15,23 @@ export class HomeRouter implements MyRouter {
     }
 
     private setUpRoutes(): void {
-        // this.router.get('/', this.home);
+        // dekoratory
+        // const ar: RestDecoratorInfo[] = Reflect.get(this, '_restApiCalls') ?? [];
+        //
+        // for (const apiOp of ar) {
+        //    same thing:
+        // this.router.get();
+        // this.router['get']();
+
+        //     this.router[apiOp.httpMethod](apiOp.path, (this as any[apiOp.propertyName]))
+        // }
+
+        this.router.get('/', this.home);
     }
 
-    @rest('get', '/')
+
+    // @rest('get', '/')
+    // @get('/')
     private home = (req: Request, res: Response): void => {
         const {sum, addons, base, allBases, allAddons} = this.cmapp.getCookieSettings(req);
 
