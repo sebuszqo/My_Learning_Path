@@ -1,5 +1,7 @@
-import { Router } from "express";
+import {Router} from "express";
+
 const express = require('express');
+
 export class HomeRouter {
     constructor(cmapp) {
         this.cmapp = cmapp;
@@ -8,7 +10,7 @@ export class HomeRouter {
         // @rest('get', '/')
         // @get('/')
         this.home = (req, res) => {
-            const { sum, addons, base, allBases, allAddons } = this.cmapp.getCookieSettings(req);
+            const {sum, addons, base, allBases, allAddons} = this.cmapp.getCookieSettings(req);
             res.render('home/index', {
                 cookie: {
                     base,
@@ -21,6 +23,7 @@ export class HomeRouter {
         };
         this.setUpRoutes();
     }
+
     setUpRoutes() {
         // dekoratory
         // const ar: RestDecoratorInfo[] = Reflect.get(this, '_restApiCalls') ?? [];
@@ -34,4 +37,5 @@ export class HomeRouter {
         this.router.get('/', this.home);
     }
 }
-//# sourceMappingURL=home.js.map
+
+//# sourceMappingURL=home.ts.map
