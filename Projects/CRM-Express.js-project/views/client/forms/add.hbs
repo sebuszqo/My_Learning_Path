@@ -1,0 +1,30 @@
+<h2>Add your new client to database</h2>
+<form method="POST" action="/clients">
+
+    <label>
+        <p>
+            E-mail: <input type="email" name="email" required>
+        </p>
+        <label>
+            <p>
+                Name: <input type="text" name="name">
+            </p>
+        </label>
+        <label>
+            <p>
+                Next contact Date: <input type="date" name="nextContactAt">
+            </p>
+        </label>
+        <label>
+            <p> Notes:</p>
+            <p><textarea name="notes" id="" cols="30" rows="5"></textarea></p>
+        </label>
+        <p>
+            <button type="submit">Save</button>
+        </p>
+    </label>
+</form>
+
+<p>
+    {{> go-home}}
+</p>

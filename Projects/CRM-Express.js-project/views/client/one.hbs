@@ -1,0 +1,50 @@
+<h2>Name of your client: {{client.name}} </h2>
+<table class="one-client-table">
+    <tbody>
+    <tr>
+        <th>
+            E-mail
+        </th>
+        <td>
+            <a href="mailto:{{client.email}}" target="_blank">{{client.email}}</a>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Name
+        </th>
+        <td>
+            {{client.name}}
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Next contact date:
+        </th>
+        <td>
+            {{client.nextContactAt}}
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Notes:
+        </th>
+        <td>
+            {{client.notes}}
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<p>
+<form method="GET" action="/clients/form/edit/{{client.id}}">
+    <button type="submit">Edit data of your client</button>
+</form>
+</p>
+<p>
+<form method="POST" action="/clients/{{this.id}}?_method=DELETE">
+    <button type="submit">Delete client</button>
+</form>
+</p>
+{{> go-form}}
+{{> go-home}}

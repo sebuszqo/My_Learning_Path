@@ -1,0 +1,6 @@
+<h2>Click to select a cookie base:</h2>
+{{#each bases}}
+    <a class="config" href="/config/select-base/{{this.[0]}}">
+        <li id="li-config">{{this.[0]}} for {{pricify this.[1]}} PLN</li>
+    </a>
+{{/each}}

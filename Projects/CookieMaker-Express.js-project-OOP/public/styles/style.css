@@ -1,0 +1,132 @@
+#remove {
+    color: #ee9c4a;
+    background-color: whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    border: 1px dotted #ee9c4a;
+}
+
+.config{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.config-disable{
+    background-color: #fff;
+}
+#li-config{
+    display: block;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    border: 1px dotted black;
+    text-align: center;
+    max-width: 28%;
+    margin: 5px;
+}
+.li-conf{
+    display: block;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    border: 1px dotted black;
+    text-align: center;
+    max-width: 28%;
+    margin: 5px;
+
+}
+.config-disable{
+    display: block;
+    border-radius: 15px;
+    background-color: rgb(205, 201, 201);
+    border: 1px dotted black;
+    text-align: center;
+    max-width: 28%;
+    margin: 5px;
+    cursor: not-allowed;
+}
+#order-a{
+    font-size: 120%;
+}
+#basket-img{
+    width: 32px;
+    vertical-align: -7px;
+
+}
+#logo {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.cookie-prev {
+    position: absolute;
+    right: 190px;
+    top: 160px;
+    width: 601px;
+    height: 640px;
+    /*background: url('../images/empty-dark.png');*/
+}
+
+#selection {
+    position: relative;
+    left: 70px;
+    max-width: 900px;
+}
+
+#selection li {
+    position: relative;
+    left: 50px;
+}
+
+h1 {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+h2 {
+    max-width: 900px;
+    margin: 20px;
+}
+
+li {
+    max-width: 900px;
+    padding: 10px;
+    color: black;
+}
+
+#home {
+    color: red;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    padding-bottom: 40px;
+}
+
+
+#selected-h3 {
+    position: relative;
+    left: 6%;
+    margin-top: 2%;
+    color: red;
+    max-width: 900px;
+}
+
+
+.error{
+    border: 1px solid red;
+    padding: 40px;
+    background-color: #bf5858;
+    text-align: center;
+}
+#p-sum{
+    max-width: 20%;
+    text-align: center;
+    margin-left: 6%;
+    margin-top: 2%;
+    text-transform: uppercase;
+}
+.success{
+    border: 1px solid green;
+    padding: 15px;
+    background-color: #b5e3b5;
+}

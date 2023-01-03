@@ -1,0 +1,21 @@
+<h2>Adding new task:</h2>
+<p>
+<form method="post" action="/todo/">
+    <label>
+        <p>
+            Description
+        </p>
+        <p>
+            <textarea name="title"></textarea>
+        </p>
+        <p>
+            Task date: <input type="date" name="timeToGo">
+        </p>
+    </label>
+    <p>
+        <button style="padding: 15px; background-color: skyblue;" ; type="submit">Save</button>
+    </p>
+</form>
+</p>
+
+{{>go-home}}

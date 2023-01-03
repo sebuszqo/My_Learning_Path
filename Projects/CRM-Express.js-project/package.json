@@ -1,0 +1,18 @@
+{
+  "name": "summary-expressjs-crmproject",
+  "version": "1.0.0",
+  "description": "I TRIED TO DO THIS AS IT WORKS IN A RESTFUL WAY",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "method-override": "^3.0.0",
+    "uuid": "^9.0.0"
+  }
+}

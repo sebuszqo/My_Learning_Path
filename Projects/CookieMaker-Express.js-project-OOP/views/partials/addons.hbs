@@ -1,0 +1,10 @@
+<h3 id="selected-h3">Selected base and addons:</h3>
+<ul>
+
+    <li id="selection">Base: {{cookie.base}} - {{pricify (findPrice bases cookie.base)}} PLN</li>
+    {{#each cookie.addons}}
+        <li id="selection">Addons: {{this}} - {{pricify (findPrice @root.addons this)}} PLN {{#if ../noDeleteBtn}}<a id="remove" href="/config/remove-addon/{{this}}">Remove</a>{{/if}}</li>{{/each}}
+</ul>
+<p id="p-sum">
+    <strong>Your Total cost: {{pricify sum}} PLN</strong>
+</p>

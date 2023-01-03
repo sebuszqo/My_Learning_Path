@@ -1,0 +1,30 @@
+table {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+table tr {
+    margin: 2px;
+    background: #dbefdb;
+}
+
+tr:nth-child(2n) {
+    background: #f1fcf1;
+}
+
+thead tr, .one-client-table th {
+    background: #57c757;
+}
+
+td, th {
+    padding: 7px;
+}
+
+.error {
+    background: #ff5c5c;
+    border: 2px dotted black;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+}

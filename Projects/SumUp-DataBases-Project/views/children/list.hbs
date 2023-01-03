@@ -1,0 +1,29 @@
+<h2>Lista Dzieci i prezentów: </h2>
+
+<!--{{log giftsList}}  w each nie mamy do tego dostepu ../ - wyjscie kontekst wyzej-->
+<ul>
+    {{#each allChildren}}
+        <li>
+            <form action="/child/gift/{{this.id}}?_method=PATCH" method="POST">
+                <label>{{this.name}}
+                    <select name="giftId">
+                        <option value="">Brak</option>
+                        {{#each ../giftsList}}
+                            <option value="{{this.id}}"
+                                    {{#if (equals this.id ../giftId)}}selected="selected"{{/if}}>{{this.name}}</option>
+                        {{/each}}
+                    </select></label>
+                <button>Zapisz!</button>
+            </form>
+        </li>
+    {{/each}}
+</ul>
+
+<h2>Dodaj dziecko do listy</h2>
+<form action="/child" method="POST">
+    <label>
+        Imię
+        <input name="name" type="text">
+    </label>
+    <button>Dodaj!</button>
+</form>

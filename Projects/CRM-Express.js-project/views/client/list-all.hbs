@@ -1,0 +1,42 @@
+<h2>List of clients: </h2>
+<table>
+    <thead>
+    <tr>
+        <th>
+            E-mail:
+        </th>
+        <th>
+            Name:
+        </th>
+        <th>
+            Next contact date:
+        </th>
+        <th>
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each clients}}
+        <tr>
+            <th>
+                <a href="mailto:{{this.email}}" target="_blank">{{this.email}}</a>
+            </th>
+            <td>
+
+                <a href="/clients/{{this.id}}">{{this.name}}</a>
+            </td>
+            <td>
+                {{this.nextContactAt}}
+            </td>
+            <td>
+                <a href="/clients/{{this.id}}">More info</a>
+                <form method="POST" action="/clients/{{this.id}}?_method=DELETE">
+                    <button type="submit">Delete</button>
+                </form>
+            </td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
+
+{{> go-form}}
