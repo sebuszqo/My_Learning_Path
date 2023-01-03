@@ -9,6 +9,8 @@
 
 - --> Smaller projects that I have made during learning are available in this or another repository (Projects).
 
+- The thing is that i cloned my projects form "Projects" repo here to have everything in one repo
+
 - Link: https://github.com/sebuszqo/Projects
 
 - I've started: 21.03.2022
