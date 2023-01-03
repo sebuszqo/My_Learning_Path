@@ -9,7 +9,7 @@
 
 - --> Smaller projects that I have made during learning are available in this or another repository (Projects).
 
-- The thing is that i cloned my projects form "Projects" repo here to have everything in one repo
+- The thing is that i cloned my smaller Projects form "Projects" repository here to have everything in one repository to link my work
 
 - Link: https://github.com/sebuszqo/Projects
 
