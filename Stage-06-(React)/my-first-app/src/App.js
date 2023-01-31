@@ -1,24 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
 
+// I can do whatever I want with JS things by using {}
+function checkName(name) {
+    // const name = prompt("podaj imie")
+    return name === "Michal" ? <strong>Banned!</strong> : name;
+}
+
 function App() {
+    const person = {
+        firstName: "Pawel",
+        lastName: "Michalski",
+    }
+    const guests = ["Dominik", "Sebastian", "maciek"]
     return (
-        <div className="App">
+        <>
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo"/>
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
+                <input type="text" tabIndex={-1}/>
+                <p>Witaj {checkName("Michal")}</p>
+                <p>Witaj {guests.join(', ')}</p>
+                <p>{person.firstName} {person.lastName}</p>
+                <img src="" alt=""/>
             </header>
-        </div>
+        </>
     );
 }
 
