@@ -4,6 +4,10 @@ import './index.css';
 import {App} from './App';
 import reportWebVitals from './reportWebVitals';
 
+let namePrompt = () => {
+    let name = prompt("Podaj swoje imie")
+    return name !== "" ? <h1>Witaj {name}</h1> : <strong>Brak imienia</strong>;
+}
 
 let counter = 0;
 
@@ -21,7 +25,7 @@ let counter = 0;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
-        <h1> Hello</h1>
+        <h1>{namePrompt()}</h1>
     </>,
 );
 
