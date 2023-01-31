@@ -7,7 +7,7 @@ function checkName(name) {
     return name === "Michal" ? <strong>Banned!</strong> : name;
 }
 
-function App() {
+export function App() {
     const person = {
         firstName: "Pawel",
         lastName: "Michalski",
@@ -16,7 +16,8 @@ function App() {
     return (
         <>
             <header className="App-header">
-                <input type="text" tabIndex={-1}/>
+                <input type="text"/>
+                <p>Hello world!</p>
                 <p>Witaj {checkName("Michal")}</p>
                 <p>Witaj {guests.join(', ')}</p>
                 <p>{person.firstName} {person.lastName}</p>
@@ -26,4 +27,3 @@ function App() {
     );
 }
 
-export default App;

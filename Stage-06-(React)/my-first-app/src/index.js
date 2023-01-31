@@ -1,14 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import {App} from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+let counter = 0;
+
+// some simple task with set interval
+// setInterval(() => {
+//     // counter++
+//     root.render(
+//         <>
+//             <h1>Licznik ma już {counter++}.</h1>
+//             <hr/>
+//             <h2>Witaj co 1 sekundę będziemy aktualizować</h2>
+//         </>,
+//     );
+// }, 1000)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <>
+        <h1> Hello</h1>
+    </>,
 );
 
 // If you want to start measuring performance in your app, pass a function
