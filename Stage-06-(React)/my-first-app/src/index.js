@@ -24,9 +24,14 @@ let counter = 0;
 // }, 1000)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+    // <>
+    //     <h1>{namePrompt()}</h1>
+    // </>,
     <>
-        <h1>{namePrompt()}</h1>
-    </>,
+        <App name={"Michał"}/>
+        <App name={"Dominik"}/>
+        <App name={"Sebastian"}/>
+    </>
 );
 
 // If you want to start measuring performance in your app, pass a function
