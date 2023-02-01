@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Component} from "react";
 
-
+// only to learn how to create class component
 export class App extends Component {
     //that is not necessary
     constructor(props) {

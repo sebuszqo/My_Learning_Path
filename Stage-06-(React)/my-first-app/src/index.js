@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import {App} from './App';
 import reportWebVitals from './reportWebVitals';
+import {WinterCamp} from './WinterCamp';
 
 let namePrompt = () => {
     let name = prompt("Podaj swoje imie")
@@ -23,15 +24,36 @@ let counter = 0;
 //     );
 // }, 1000)
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const data = [
+    {
+        name: "Michał",
+        email: "michalkuzyk@gmail.com"
+    },
+    {
+        name: "Monika",
+        email: "monika34@proton.me"
+    }
+]
+
+
 root.render(
-    // <>
-    //     <h1>{namePrompt()}</h1>
-    // </>,
-    <>
-        <App name={"Michał"}/>
-        <App name={"Dominik"}/>
-        <App name={"Sebastian"}/>
-    </>
+    <React.StrictMode>
+        {/*// <>*/}
+        {/*<h1>{namePrompt()}</h1>*/}
+        {/*// </>,*/}
+        <>
+            <App
+                name={"Dominik"}
+                age={20}
+                isTest={true}
+                arr={[1, 23, 4, 5]}
+            />
+            <App name={"Dominik"}/>
+            <App name={"Sebastian"}/>
+            <WinterCamp participants={data}/>
+        </>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
