@@ -4,6 +4,7 @@ import './index.css';
 import {App} from './App';
 import reportWebVitals from './reportWebVitals';
 import {WinterCamp} from './WinterCamp';
+import {data} from "./participantsData";
 
 let namePrompt = () => {
     let name = prompt("Podaj swoje imie")
@@ -24,17 +25,9 @@ let counter = 0;
 //     );
 // }, 1000)
 
-const data = [
-    {
-        name: "Michał",
-        email: "michalkuzyk@gmail.com"
-    },
-    {
-        name: "Monika",
-        email: "monika34@proton.me"
-    }
-]
 
+//.map(), .filter(), .forEach(), .reduce() - these methods are okay, we can use them to change props
+// we cannot use methods such as .pop(), .push() without copying our props
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
@@ -50,6 +43,7 @@ root.render(
             {/*/>*/}
             {/*<App name={"Dominik"}/>*/}
             {/*<App name={"Sebastian"}/>*/}
+            {/*WinterCamp app */}
             <WinterCamp participants={data}/>
         </>
     </React.StrictMode>
