@@ -23,7 +23,6 @@ let counter = 0;
 //         </>,
 //     );
 // }, 1000)
-const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const data = [
     {
@@ -36,25 +35,25 @@ const data = [
     }
 ]
 
-
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         {/*// <>*/}
         {/*<h1>{namePrompt()}</h1>*/}
         {/*// </>,*/}
         <>
-            <App
-                name={"Dominik"}
-                age={20}
-                isTest={true}
-                arr={[1, 23, 4, 5]}
-            />
-            <App name={"Dominik"}/>
-            <App name={"Sebastian"}/>
+            {/*<App*/}
+            {/*    name={"Dominik"}*/}
+            {/*    age={20}*/}
+            {/*    isTest={true}*/}
+            {/*    arr={[1, 23, 4, 5]}*/}
+            {/*/>*/}
+            {/*<App name={"Dominik"}/>*/}
+            {/*<App name={"Sebastian"}/>*/}
             <WinterCamp participants={data}/>
         </>
     </React.StrictMode>
-);
+)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
