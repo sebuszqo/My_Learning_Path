@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {WinterCamp, Counter} from './WinterCamp';
 import {data} from "./participantsData";
 import {App2} from "./App2";
+import {ArrayCounting} from "./ArrayCounting";
 
 let namePrompt = () => {
     let name = prompt("Podaj swoje imie")
@@ -46,8 +47,9 @@ root.render(
             {/*<App name={"Sebastian"}/>*/}
             {/*WinterCamp app */}
             {/*<WinterCamp participants={data}/>*/}
-            <Counter/>
-            <App2/>
+            {/*<Counter/>*/}
+            {/*<App2/>*/}
+            <ArrayCounting/>
         </>
     </React.StrictMode>
 )
