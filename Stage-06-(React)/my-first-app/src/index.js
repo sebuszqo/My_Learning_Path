@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import {App} from './App';
 import reportWebVitals from './reportWebVitals';
-import {WinterCamp} from './WinterCamp';
+import {WinterCamp, Counter} from './WinterCamp';
 import {data} from "./participantsData";
+import {App2} from "./App2";
 
 let namePrompt = () => {
     let name = prompt("Podaj swoje imie")
@@ -44,7 +45,9 @@ root.render(
             {/*<App name={"Dominik"}/>*/}
             {/*<App name={"Sebastian"}/>*/}
             {/*WinterCamp app */}
-            <WinterCamp participants={data}/>
+            {/*<WinterCamp participants={data}/>*/}
+            <Counter/>
+            <App2/>
         </>
     </React.StrictMode>
 )

@@ -4,19 +4,37 @@ import {Component, useState} from "react";
 
 
 // useState to know how to deal with it in class components
-export class WinterCamp extends Component {
+export class Counter extends Component {
     state = {
-        name: "Michał",
-        lastName: "Sienkiewicz"
+        count: 0,
     };
 
+
+    componentDidMount() {
+        // preventing from rendering it again and again
+        // thanks to that only 1 time it will be rendered during mounting
+        this.intervalId = setInterval(() => {
+            this.setState(prev => ({
+                count: prev.count + 1
+            }));
+
+        }, 1000)
+        // console.log("First mounting the component in DOM.")
+    }
+
+    //
+    // componentDidUpdate() {
+    //     console.log("Component did update in DOM.")
+    // }
+    //
+    componentWillUnmount() {
+        clearInterval(this.intervalId)
+        console.log("Component will be unmounted in DOM.")
+    }
+
     render() {
-
-        setTimeout(() => {
-            this.setState({name: "Dominik"})
-
-        }, 2000)
-        return <h1>{this.state.name}</h1>
+        console.log("Rendering ... ")
+        return <h1>{this.state.count}</h1>
     }
 }
 
