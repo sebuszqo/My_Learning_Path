@@ -9,12 +9,16 @@ export class ArrayCounting extends Component {
     componentDidMount() {
         this.intervalId = setInterval(() => {
             this.setState((prevState) => {
+                return {
+                    numbers: [...prevState.numbers, prevState.numbers.length + 1]
+                }
+                // same as above
                 const array = structuredClone(prevState)
                 // const array = JSON.parse(JSON.stringify(prevState));
-                array.numbers.push(array.numbers.length + 1);
+                array.numbers.push(parseInt(array.numbers.slice(-1)) + 1);
                 return array
             });
-        }, 100);
+        }, 500);
     }
 
     componentWillUnmount() {
