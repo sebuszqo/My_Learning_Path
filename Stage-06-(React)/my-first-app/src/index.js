@@ -7,6 +7,7 @@ import {WinterCamp, Counter} from './WinterCamp';
 import {data} from "./participantsData";
 import {App2} from "./App2";
 import {ArrayCounting} from "./ArrayCounting";
+import {Clock} from "./Clock";
 
 let namePrompt = () => {
     let name = prompt("Podaj swoje imie")
@@ -49,6 +50,7 @@ root.render(
             {/*<WinterCamp participants={data}/>*/}
             {/*<Counter/>*/}
             {/*<App2/>*/}
+            <Clock/>
             <ArrayCounting/>
         </>
     </React.StrictMode>
