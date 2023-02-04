@@ -12,7 +12,7 @@ root.render(
     <React.StrictMode>
         <App/>
         {/*<Clock/>*/}
-        <ArrayCounting/>
+        {/*<ArrayCounting/>*/}
         {/*<StringList list={[1, 2, 3, 4, 5]}/>*/}
     </React.StrictMode>
 );
