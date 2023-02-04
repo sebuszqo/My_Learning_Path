@@ -8,7 +8,7 @@ export const CrazyInput = (props) => {
             setInputType(inputType => (
                 inputType === "password" ? "text" : "password"
             ))
-        })
+        }, 1000)
         return () => clearInterval(intervalId)
     }, [])
     // return <input type={props.isPwd ? "password" : "text"}/>

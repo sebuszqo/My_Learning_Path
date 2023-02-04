@@ -7,8 +7,11 @@ import {CrazyInput} from "./CrazyInput";
 export const App = props => {
     return (
         <>
+            <div style={{backgroundColor: "black"}}>
+                <CrazyInput/>
+            </div>
             <CrazyInput/>
-            <CrazyInput isPwd/>
+            {/*<CrazyInput isPwd/>*/}
         </>
     )
 }
