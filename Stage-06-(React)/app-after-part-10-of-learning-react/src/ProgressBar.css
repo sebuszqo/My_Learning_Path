@@ -1,0 +1,10 @@
+.ProgressBar {
+    background: blueviolet;
+    height: 10px;
+    /*width: 100%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.34em;
+}
+
