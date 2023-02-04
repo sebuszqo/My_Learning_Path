@@ -5,13 +5,15 @@ import {App} from './App';
 import reportWebVitals from './reportWebVitals';
 import {Clock} from "./Clock";
 import {StringList} from "./StringList";
+import {ArrayCounting} from "./ArrayCounting";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <App/>
         {/*<Clock/>*/}
-        <StringList list={[1, 2, 3, 4, 5]}/>
+        <ArrayCounting/>
+        {/*<StringList list={[1, 2, 3, 4, 5]}/>*/}
     </React.StrictMode>
 );
 
