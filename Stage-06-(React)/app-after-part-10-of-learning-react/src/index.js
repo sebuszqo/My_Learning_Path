@@ -6,14 +6,18 @@ import reportWebVitals from './reportWebVitals';
 import {Clock} from "./Clock";
 import {StringList} from "./StringList";
 import {ArrayCounting} from "./ArrayCounting";
+import {RGB} from "./RGB";
+import {ShowPassword} from "./ShowPassword";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <App/>
+        {/*<App/>*/}
         {/*<Clock/>*/}
         {/*<ArrayCounting/>*/}
         {/*<StringList list={[1, 2, 3, 4, 5]}/>*/}
+        <RGB/>
+        <ShowPassword/>
     </React.StrictMode>
 );
 
