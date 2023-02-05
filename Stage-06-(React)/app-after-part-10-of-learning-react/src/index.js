@@ -18,6 +18,7 @@ root.render(
         {/*<StringList list={[1, 2, 3, 4, 5]}/>*/}
         <RGB/>
         <ShowPassword/>
+        <StringList list={[1, 2, 3, 4, 5]}/>
     </React.StrictMode>
 );
 

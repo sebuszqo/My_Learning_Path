@@ -42,6 +42,7 @@ export const App = props => {
         <button>Wyślij</button>
     </form>
     return <button onClick={clicked}>Click me!</button>;
+}
 // return (
 //     <>
 //         {/*<div style={{backgroundColor: "black"}}>*/}
@@ -56,4 +57,4 @@ export const App = props => {
 //         <AnimatedProgressBar/>
 //     </>
 // )
-}
+// }
