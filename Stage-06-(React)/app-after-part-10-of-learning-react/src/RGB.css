@@ -1,6 +1,9 @@
 .RGB {
     height: 250px;
     width: 250px;
+    border: 10px double black;
+    padding: 10px;
+    margin: 20px;
     /*background: yellow;*/
     /*width: 100%;*/
     display: flex;
