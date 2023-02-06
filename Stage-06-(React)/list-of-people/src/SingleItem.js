@@ -3,7 +3,8 @@ import './SingleItem.css'
 export const SingleItem = (props) => {
 
     const bigLetter = (string) => string.charAt(0).toUpperCase() + string.slice(1);
-    return <li key={props.item.username}>
+
+    return <li key={props.item.username} onClick={() => props.onRemoveItem(props.item.username)}>
         <img src={`https://raw.githubusercontent.com/pixelastic/fakeusers/master/pictures/${props.item.picture}`}
              alt={`Avatar of ${props.item.first_name}`}/>
         <div>
