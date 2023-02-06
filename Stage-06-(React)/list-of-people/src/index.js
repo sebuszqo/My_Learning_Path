@@ -3,22 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import {App} from './App';
 import reportWebVitals from './reportWebVitals';
-import {Clock} from "./Clock";
-import {StringList} from "./StringList";
-import {ArrayCounting} from "./ArrayCounting";
-import {RGB} from "./RGB";
-import {ShowPassword} from "./ShowPassword";
+
+import {data} from "./data/people";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        {/*<App/>*/}
-        {/*<Clock/>*/}
-        {/*<ArrayCounting/>*/}
-        {/*<StringList list={[1, 2, 3, 4, 5]}/>*/}
-        <RGB/>
-        <ShowPassword/>
-        {/*<StringList list={[1, 2, 3, 4, 5]}/>*/}
+        <App list={data}/>
     </React.StrictMode>
 );
 

@@ -1,8 +1,8 @@
-import {useEffect, useState} from "react";
-
+//how to deal with rendering elements with keys from array in appropriate way
 export const StringList = props => {
     const list = props.list
-        .map(string => <li>{string}</li>)
+        .map(string, index => <li key={`${index}`}>{string}</li>)
+
     // useEffect(() => {
     //     console.log("List has been changed")
     // }, [props.list])
