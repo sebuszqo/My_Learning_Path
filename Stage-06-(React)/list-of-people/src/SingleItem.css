@@ -4,12 +4,18 @@ li {
     list-style: none;
     display: flex;
     align-items: center;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: lightgray;
 }
 
 li img {
-    height: 80px;
+    height: 90px;
     /*width: 50px;*/
-    border-radius: 10px;
+    border-radius: 50%;
     margin: 30px;
 }
 
