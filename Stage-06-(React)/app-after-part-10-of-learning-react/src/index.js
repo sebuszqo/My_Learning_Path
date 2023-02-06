@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import {App} from './App';
 import reportWebVitals from './reportWebVitals';
-import {Clock} from "./Clock";
-import {StringList} from "./StringList";
-import {ArrayCounting} from "./ArrayCounting";
-import {RGB} from "./RGB";
-import {ShowPassword} from "./ShowPassword";
+import {Clock} from "./ components/clock/Clock";
+import {StringList} from "./ components/array/StringList";
+import {ArrayCounting} from "./ components/array/ArrayCounting";
+import {RGB} from "./ components/RGB/RGB";
+import {ShowPassword} from "./ components/password/ShowPassword";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
