@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-export const Form = props => {
+export const FirstSimpleForm = props => {
     const [firstName, setFirstName] = useState('');
     const [gender, setGender] = useState("")
     const [agreement, setAgreement] = useState(false)
