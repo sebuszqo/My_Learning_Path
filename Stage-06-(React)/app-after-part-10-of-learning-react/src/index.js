@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import {App} from './App';
 import reportWebVitals from './reportWebVitals';
-import {Clock} from "./ components/clock/Clock";
-import {StringList} from "./ components/array/StringList";
-import {ArrayCounting} from "./ components/array/ArrayCounting";
-import {RGB} from "./ components/RGB/RGB";
-import {ShowPassword} from "./ components/password/ShowPassword";
-import {FirstSimpleForm} from "./ components/forms/FirstSimpleForm";
-import {SelectRGBDiv} from "./ components/select/SelectRGBDiv";
-import {BiggerForm} from "./ components/forms/BiggerForm";
+import {Clock} from "./components/clock/Clock";
+import {StringList} from "./components/array/StringList";
+import {ArrayCounting} from "./components/array/ArrayCounting";
+import {RGB} from "./components/RGB/RGB";
+import {ShowPassword} from "./components/password/ShowPassword";
+import {FirstSimpleForm} from "./components/forms/FirstSimpleForm";
+import {SelectRGBDiv} from "./components/select/SelectRGBDiv";
+import {BiggerForm} from "./components/forms/BiggerForm";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import {Component, useState} from "react";
-import {Clock} from "./ components/clock/Clock";
-import {CrazyInput} from "./ components/password/CrazyInput";
-import {ProgressBar} from "./ components/progressBar/ProgressBar";
-import {AnimatedProgressBar} from "./ components/progressBar/AnimatedProgressBar";
+import {Clock} from "./components/clock/Clock";
+import {CrazyInput} from "./components/password/CrazyInput";
+import {ProgressBar} from "./components/progressBar/ProgressBar";
+import {AnimatedProgressBar} from "./components/progressBar/AnimatedProgressBar";
 //
 // export class App extends Component {
 //     state = {
