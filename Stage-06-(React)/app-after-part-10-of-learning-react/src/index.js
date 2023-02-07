@@ -11,6 +11,7 @@ import {ShowPassword} from "./components/password/ShowPassword";
 import {FirstSimpleForm} from "./components/forms/FirstSimpleForm";
 import {SelectRGBDiv} from "./components/select/SelectRGBDiv";
 import {BiggerForm} from "./components/forms/BiggerForm";
+import {LoginRegisterPage} from "./components/loginPage/LoginRegisterPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,8 +23,9 @@ root.render(
         {/*<RGB/>*/}
         {/*<ShowPassword/>*/}
         {/*<FirstSimpleForm/>*/}
-        <SelectRGBDiv/>
-        <BiggerForm/>
+        {/*<SelectRGBDiv/>*/}
+        {/*<BiggerForm/>*/}
+        <LoginRegisterPage/>
     </React.StrictMode>
 );
 
