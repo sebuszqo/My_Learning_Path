@@ -8,6 +8,7 @@ import {StringList} from "./ components/array/StringList";
 import {ArrayCounting} from "./ components/array/ArrayCounting";
 import {RGB} from "./ components/RGB/RGB";
 import {ShowPassword} from "./ components/password/ShowPassword";
+import {Form} from "./ components/forms/Form";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,9 +17,10 @@ root.render(
         {/*<Clock/>*/}
         {/*<ArrayCounting/>*/}
         {/*<StringList list={[1, 2, 3, 4, 5]}/>*/}
-        <RGB/>
-        <ShowPassword/>
-        {/*<StringList list={[1, 2, 3, 4, 5]}/>*/}
+        {/*<RGB/>*/}
+        {/*<ShowPassword/>*/}
+        <Form/>
+
     </React.StrictMode>
 );
 
