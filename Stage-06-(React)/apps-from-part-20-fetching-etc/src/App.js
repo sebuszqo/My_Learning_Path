@@ -1,25 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import {Dialog} from "./components/common/Dialog/Dialog";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (<>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum dolor doloremque dolorum eligendi
+                facilis hic iste molestias nesciunt nulla provident, reiciendis sequi similique voluptatem voluptatum!
+                Ab delectus et quae.</p>
+            <Dialog title={"Hello there "} body={"Witaj serdecznie na stronie głównej"}/>
+            <Dialog><h1>Podaje tutaj wartość którą można odebrać w props.children</h1></Dialog>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum dolor doloremque dolorum eligendi
+                facilis hic iste molestias nesciunt nulla provident, reiciendis sequi similique voluptatem voluptatum!
+                Ab delectus et quae.</p>
+        </>
+    );
 }
 
-export default App;
+export default App
+
