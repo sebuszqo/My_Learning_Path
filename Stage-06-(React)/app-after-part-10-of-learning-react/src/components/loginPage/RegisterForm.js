@@ -68,7 +68,7 @@ export const RegisterForm = props => {
             </p>
             <p>
                 <label>
-                    Second Password: <br/>
+                    Confirm Password: <br/>
                     <input type="text" name="secondPassword" value={secondPassword}
                            onChange={e => setSecondPassword(e.target.value)}
                            style={{borderColor: passwordValid}}
