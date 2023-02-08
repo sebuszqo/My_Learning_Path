@@ -2,7 +2,7 @@ import {useState} from "react";
 import {PasswordInput} from "./PasswordInput";
 import {userEmail, userPassword} from "./data/account";
 
-export const LoginForm = props => {
+export const LoginForm = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [personLogin, setPersonLogin] = useState({
@@ -22,6 +22,10 @@ export const LoginForm = props => {
     }
 
 
+    const handleEmailChange = (event) => {
+        setEmail(event.target.value)
+        setLogged(() => "")
+    }
     return (<>
 
             <h1>Logowanie</h1>
@@ -30,7 +34,7 @@ export const LoginForm = props => {
                     <label>
                         E-mail: <br/>
                         <input type="text" name="email" value={email}
-                               onChange={e => setEmail(e.target.value)}/>
+                               onChange={handleEmailChange}/>
                     </label>
                 </p>
                 <PasswordInput password={password} setLogged={setLogged} setPassword={setPassword}/>

@@ -21,7 +21,6 @@ export const PasswordInput = (props) => {
                     onMouseUp={() => setVisible(false)}>{visible ? "🔒" : "👁"}
                 ️
             </button>
-
         </p>
     )
 }
