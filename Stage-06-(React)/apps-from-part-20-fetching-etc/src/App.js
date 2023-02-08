@@ -18,7 +18,7 @@ function App() {
             {/*    Ab delectus et quae.</p>*/}
             {/*<ConfirmDialog title={"Specjalistyczny dialog"}>Podaje tu wartość</ConfirmDialog>*/}
             <Btn>Podstawowy Button</Btn>
-            <BigBtn padding={100}>Rozszerzony Button</BigBtn>
+            <BigBtn>Rozszerzony Button</BigBtn>
         </>
 
     );
