@@ -23,8 +23,8 @@ function App() {
             {/*<Btn>Podstawowy Button</Btn>*/}
             {/*<BigBtn>Rozszerzony Button</BigBtn>*/}
             {/*<AgeGuesser/>*/}
-            <BtcPrice/>
-            {/*<GenerateFakeUser/>*/}
+            {/*<BtcPrice/>*/}
+            <GenerateFakeUser/>
         </div>
 
     );
