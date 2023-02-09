@@ -4,6 +4,7 @@ import {Dialog} from "./components/common/Dialog/Dialog";
 import {ConfirmDialog} from "./components/common/Dialog/ConfirmDialog";
 import {Btn} from "./components/common/Button/Btn";
 import {BigBtn} from "./components/common/Button/BigBtn";
+import {AgeGuesser} from "./components/AgeGuesser/AgeGuesser";
 
 
 function App() {
@@ -17,8 +18,9 @@ function App() {
             {/*    facilis hic iste molestias nesciunt nulla provident, reiciendis sequi similique voluptatem voluptatum!*/}
             {/*    Ab delectus et quae.</p>*/}
             {/*<ConfirmDialog title={"Specjalistyczny dialog"}>Podaje tu wartość</ConfirmDialog>*/}
-            <Btn>Podstawowy Button</Btn>
-            <BigBtn>Rozszerzony Button</BigBtn>
+            {/*<Btn>Podstawowy Button</Btn>*/}
+            {/*<BigBtn>Rozszerzony Button</BigBtn>*/}
+            <AgeGuesser/>
         </>
 
     );
