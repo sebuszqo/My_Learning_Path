@@ -6,6 +6,7 @@ import {Btn} from "./components/common/Button/Btn";
 import {BigBtn} from "./components/common/Button/BigBtn";
 import {AgeGuesser} from "./components/AgeGuesser/AgeGuesser";
 import {BtcPrice} from "./components/BtcFetch/BtcPrice";
+import {GenerateFakeUser} from "./components/FakeUser/GenerateFakeUser";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             {/*<BigBtn>Rozszerzony Button</BigBtn>*/}
             {/*<AgeGuesser/>*/}
             <BtcPrice/>
+            {/*<GenerateFakeUser/>*/}
         </div>
 
     );

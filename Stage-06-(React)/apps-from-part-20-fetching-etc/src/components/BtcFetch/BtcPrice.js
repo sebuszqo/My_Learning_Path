@@ -7,6 +7,7 @@ export const BtcPrice = () => {
     const [currPrice, setCurrData] = useState(null)
     const [error, setError] = useState(null)
 
+
     useEffect(() => {
         const intervalId = setInterval(() => {
             const fetchData = async () => {
@@ -19,7 +20,7 @@ export const BtcPrice = () => {
                     setError("Error during loading data...")
                 }
             }
-            fetchData().then(null)
+            fetchData()
         }, 1000)
         return () => clearInterval(intervalId)
     }, [])
