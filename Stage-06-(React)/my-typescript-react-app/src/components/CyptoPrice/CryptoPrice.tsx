@@ -13,7 +13,7 @@ export const CryptoPrice = () => {
                 const res = await fetch(`https://api2.binance.com/api/v3/ticker/24hr`)
                 setData(await res.json())
             } catch (e) {
-                setError("Error has occured")
+                setError("Error has occurred")
             }
 
         })();
@@ -23,7 +23,7 @@ export const CryptoPrice = () => {
         return <p>Loading ...</p>
     }
     if (error !== null) {
-        return <p>Sorry, error has occured</p>
+        return <p>Sorry, error has occurred</p>
     }
 
 
