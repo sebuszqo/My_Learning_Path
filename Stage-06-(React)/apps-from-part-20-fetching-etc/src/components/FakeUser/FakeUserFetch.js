@@ -22,10 +22,10 @@ export const FakeUserFetch = props => {
                 first_name: old.name.first,
                 last_name: old.name.last,
                 username: old.login.username,
-                picture: old.picture.thumbnail
+                picture: old.picture.medium
             })))
         } catch (e) {
-            setError("Error sorry")
+            setError("Error", e)
         }
     }
 
@@ -39,9 +39,11 @@ export const FakeUserFetch = props => {
     if (error) {
         return <p>Error...</p>
     }
+
     if (userData === null) {
         return <p>Loading ...</p>
     }
+
     const list = [...userData].map(person => <SinglePerson item={person} key={person.username}
                                                            onRemoveItem={removeItem}/>)
     return <ul className={"userList"}>{list}</ul>
