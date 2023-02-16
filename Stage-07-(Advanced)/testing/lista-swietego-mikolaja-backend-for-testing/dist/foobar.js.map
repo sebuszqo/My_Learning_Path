@@ -1,1 +1,1 @@
-{"version":3,"file":"foobar.js","sourceRoot":"","sources":["../foobar.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,MAAM,WAAW,GAAG,CAAC,SAAiB,EAAE,QAAgB,EAAE,EAAE,CAAC,CAAC;IACjE,IAAI,EAAE,SAAS;IACf,OAAO,EAAE,QAAQ;CACpB,CAAC,CAAC"}
+{"version":3,"file":"foobar.js","sourceRoot":"","sources":["../foobar.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,MAAM,WAAW,GAAG,CAAC,SAAiB,EAAE,QAAgB,EAAE,EAAE;IAC/D,IAAI,CAAC,SAAS,IAAI,CAAC,QAAQ,EAAE;QACzB,MAAM,IAAI,KAAK,CAAC,yCAAyC,CAAC,CAAA;KAC7D;IAED,OAAO;QACH,IAAI,EAAE,SAAS;QACf,OAAO,EAAE,QAAQ;KACpB,CAAA;AACL,CAAC,CAAC"}

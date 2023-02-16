@@ -23,3 +23,13 @@ assert.deepStrictEqual(buildPerson('Jan', 'Testowy'),
     'Those are not the same people')
 
 // @TODO: A co jeśli ktoś nie poda surname?
+
+
+assert.throws(() => buildPerson('', ''), {
+    message: "First and last name should not be empty"
+}, "buildPerson() does not throw message when empty firstName or secondName")
+
+assert.doesNotThrow(
+    () => buildPerson("Sebastian", "Tak"),
+    'buildPerson() throws an error.'
+)
