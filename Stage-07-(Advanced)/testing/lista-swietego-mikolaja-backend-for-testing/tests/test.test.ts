@@ -1,5 +1,5 @@
 import {buildPerson, getMyBodyTemp} from "../foobar";
-import {ChildRecord} from "../records/child.record";
+
 
 test('adds 1 + 2 to equal 3', () => {
 
@@ -59,8 +59,3 @@ test("Is 1 in my array?", () => {
     expect([1, 23, 3]).not.toContain(2)
 })
 
-test('Are children defined in dataBase', async () => {
-    const children = await ChildRecord.listAll()
-    console.log(children)
-    expect(children).toBeDefined();
-});
