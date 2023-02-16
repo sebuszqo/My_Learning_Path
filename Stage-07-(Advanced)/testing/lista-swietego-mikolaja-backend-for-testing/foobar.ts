@@ -8,3 +8,6 @@ export const buildPerson = (firstName: string, lastName: string) => {
         surname: lastName,
     }
 };
+
+// (max - min) + min --> zakres
+export const getMyBodyTemp = (): number => Math.random() * (41 - 34) + 34;
