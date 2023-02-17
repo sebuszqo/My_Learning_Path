@@ -1,5 +1,11 @@
 import {GiftRecord} from "../records/gift.record";
 import {pool} from "../utils/db";
+import {before} from "node:test";
+
+beforeAll(() => {
+    // 1. Clean whole tested table of database
+    // 2. Return data (defined data)
+})
 
 afterAll(async () => {
     await pool.end();
