@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a19a985-86df-44ac-910a-9268ac4183e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Stage-07-(Advanced)/testing/simple_login_project_with_tests/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stage-07-(Advanced)/testing/simple_login_project_with_tests/user.test.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2EWt2WzAsruJyBhVeczWJfLHp5G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "code.cleanup.on.save": "true",
+    "javascript.nodejs.core.library.configured.version": "18.8.0",
+    "javascript.nodejs.core.library.typings.version": "18.8.0",
+    "last_opened_file_path": "/Users/sebuszqo/Desktop/My-Learning-Path/Stage-07-(Advanced)/testing/simple_login_project_with_tests",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/sebuszqo/Desktop/My-Learning-Path/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "ts.external.directory.path": "/Users/sebuszqo/Desktop/My-Learning-Path/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Stage-07-(Advanced)/testing/simple_login_project_with_tests" />
+      <recent name="$PROJECT_DIR$/Stage-07-(Advanced)/testing" />
+      <recent name="$PROJECT_DIR$/Projects" />
+      <recent name="$PROJECT_DIR$/Stage-06-(React)" />
+      <recent name="$PROJECT_DIR$/Stage-06-(React)/my-typescript-react-app/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/testing-levenshteinDistance" />
+      <recent name="$PROJECT_DIR$/Stage-06-(React)/my-typescript-react-app/src/components" />
+      <recent name="$PROJECT_DIR$/Stage-06-(React)" />
+      <recent name="$PROJECT_DIR$/Stage-06-(React)/app-after-part-10-of-learning-react/src/ components" />
+      <recent name="$PROJECT_DIR$/Stage-06-(React)/app-after-part-10-of-learning-react/src/ components/array" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.giftRecord.test.ts">
+    <configuration name="Inserted GiftRecord should have an id" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/tests/giftRecord.test.ts" />
+      <test-names>
+        <test-name value="Inserted GiftRecord should have an id" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Not inserted GiftRecord should have no id" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/tests/giftRecord.test.ts" />
+      <test-names>
+        <test-name value="Not inserted GiftRecord should have no id" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing simple objects" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/tests/test.test.ts" />
+      <test-names>
+        <test-name value="Testing simple objects" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="adds 1 + 2 to equal 4" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/tests/test.test.ts" />
+      <test-names>
+        <test-name value="adds 1 + 2 to equal 4" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="giftRecord.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/tests/giftRecord.test.ts" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.giftRecord.test.ts" />
+        <item itemvalue="Jest.Inserted GiftRecord should have an id" />
+        <item itemvalue="Jest.Not inserted GiftRecord should have no id" />
+        <item itemvalue="Jest.Testing simple objects" />
+        <item itemvalue="Jest.adds 1 + 2 to equal 4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a19a985-86df-44ac-910a-9268ac4183e3" name="Changes" comment="" />
+      <created>1662722961641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662722961641</updated>
+      <workItem from="1662722964268" duration="1304000" />
+      <workItem from="1663427463371" duration="398000" />
+      <workItem from="1663428011942" duration="687000" />
+      <workItem from="1663516313096" duration="659000" />
+      <workItem from="1663581348218" duration="13000" />
+      <workItem from="1663581376250" duration="645000" />
+      <workItem from="1664545413455" duration="6346000" />
+      <workItem from="1664635434683" duration="2972000" />
+      <workItem from="1664735437484" duration="16806000" />
+      <workItem from="1664881634000" duration="1965000" />
+      <workItem from="1664889444314" duration="16234000" />
+      <workItem from="1664970660767" duration="7983000" />
+      <workItem from="1665141095741" duration="2812000" />
+      <workItem from="1665403877402" duration="2655000" />
+      <workItem from="1665481526293" duration="7199000" />
+      <workItem from="1665841844628" duration="1607000" />
+      <workItem from="1666187585703" duration="5432000" />
+      <workItem from="1666343238504" duration="12000" />
+      <workItem from="1666454141062" duration="1119000" />
+      <workItem from="1666690795181" duration="7000" />
+      <workItem from="1666690809322" duration="3585000" />
+      <workItem from="1666861825212" duration="442000" />
+      <workItem from="1666880488668" duration="4150000" />
+      <workItem from="1667135892464" duration="5000" />
+      <workItem from="1667135904806" duration="3219000" />
+      <workItem from="1667215104618" duration="597000" />
+      <workItem from="1667337886735" duration="4833000" />
+      <workItem from="1667401316482" duration="5000" />
+      <workItem from="1667470304207" duration="4385000" />
+      <workItem from="1667555261949" duration="10482000" />
+      <workItem from="1668014506284" duration="42000" />
+      <workItem from="1668101633062" duration="2862000" />
+      <workItem from="1668937781953" duration="13000" />
+      <workItem from="1668957872697" duration="3436000" />
+      <workItem from="1669048913338" duration="8482000" />
+      <workItem from="1669070856030" duration="8691000" />
+      <workItem from="1669201610888" duration="33000" />
+      <workItem from="1669315496098" duration="8959000" />
+      <workItem from="1669483644704" duration="1544000" />
+      <workItem from="1669631788767" duration="96000" />
+      <workItem from="1669637285919" duration="5695000" />
+      <workItem from="1670076094468" duration="6084000" />
+      <workItem from="1670410991463" duration="2040000" />
+      <workItem from="1670421247096" duration="4808000" />
+      <workItem from="1670932941253" duration="244000" />
+      <workItem from="1671013529655" duration="3000" />
+      <workItem from="1671208800448" duration="8459000" />
+      <workItem from="1671527200194" duration="441000" />
+      <workItem from="1671527652451" duration="3561000" />
+      <workItem from="1671729180874" duration="54000" />
+      <workItem from="1671732225629" duration="1125000" />
+      <workItem from="1672152583286" duration="1000" />
+      <workItem from="1672245256090" duration="52000" />
+      <workItem from="1672588293904" duration="47000" />
+      <workItem from="1672828545693" duration="2350000" />
+      <workItem from="1673291704872" duration="8401000" />
+      <workItem from="1675164392553" duration="24364000" />
+      <workItem from="1675358209209" duration="17973000" />
+      <workItem from="1675531420067" duration="9839000" />
+      <workItem from="1675598411534" duration="7000" />
+      <workItem from="1675598425817" duration="53479000" />
+      <workItem from="1675871817805" duration="40153000" />
+      <workItem from="1676458251477" duration="216000" />
+      <workItem from="1676458592809" duration="31311000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/types/index.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-6/task1.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/types/index.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-6/task1.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/types/single-todo.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-6/task3.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/types/single-todo.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-6/task2.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/types/gender.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-6/task2.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/types/gender.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/todo/types/todo.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/todo/types/todo.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-6/task3.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-7/task2.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-7/task2.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-7/task1.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-7/task3.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-7/task3.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-7/task1.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-8/task1.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-8/task1.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/export.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/export.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-1/index.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-12/enum.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-1/index.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-11/typy-generyczne.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-12/enum.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-11/klasy-abstrakcyjne.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-11/typy-generyczne.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-11/getters-setters.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-11/getters-setters.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-11/klasy-abstrakcyjne.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-10/modyfikatory-dostepow-cz2.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-10/modyfikatory-dostepow-cz2.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/index.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/todo/libs/todo-lib.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-3/index.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-14/test.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/index.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-14/test.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-14/decorators.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-14/task.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-14/task.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-14/index.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-14/index.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-9/classes.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-14/decorators.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-9/classesv2.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-9/classesv2.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-3/index.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-9/classes.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/todo/types/index.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/todo/types/index.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/todo/libs/todo-lib.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-5/classes.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-5/interfejsy.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-5/interfejsy.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-5/littlehome.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/todo/index.js.map" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-5/littlehome.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-5/classes.js" />
+        <option value="$PROJECT_DIR$/Stage-05-(TypeScript)/dzien-13/todo/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
