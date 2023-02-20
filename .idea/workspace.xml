@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2a19a985-86df-44ac-910a-9268ac4183e3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stage-07-(Advanced)/testing/simple_login_project_with_tests/user.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stage-07-(Advanced)/testing/simple_login_project_with_tests/user.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/tests/childRecord.mocks.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/tests/childRecord.mocks.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/tests/childRecord.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/tests/childRecord.test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +227,7 @@
       <workItem from="1675871817805" duration="40153000" />
       <workItem from="1676458251477" duration="216000" />
       <workItem from="1676458592809" duration="33543000" />
-      <workItem from="1676748304251" duration="798000" />
+      <workItem from="1676748304251" duration="6783000" />
     </task>
     <servers />
   </component>
