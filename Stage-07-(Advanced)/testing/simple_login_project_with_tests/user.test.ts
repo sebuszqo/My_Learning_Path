@@ -46,7 +46,7 @@ test("After passing any string other than `1234` as a password, the login method
 });
 
 test("After passing `1234` as password and any string as e-mail, method returns true and changes state to logged in. We can then access the passed e-mail from outside.", () => {
-  expect(user.login("example@example.com", "1234"));
+  user.login("example@example.com", "1234");
   expect(user.loggedIn).toEqual(true);
   expect(user.email).toEqual("example@example.com");
 });
