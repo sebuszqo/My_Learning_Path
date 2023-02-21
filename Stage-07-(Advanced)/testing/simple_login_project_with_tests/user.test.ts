@@ -13,6 +13,12 @@ test("User should have no e-mail at the beginning", () => {
   expect(user.emial).toBeNull();
 });
 
+test("User e-mail should not be modified outside of class", () => {
+  expect(() => {
+    user.email = "example@example.com";
+  }).toThrow();
+});
+
 test("User logged in state should not be modified outside of class", () => {
   expect(() => {
     user.loggedIn = true;
