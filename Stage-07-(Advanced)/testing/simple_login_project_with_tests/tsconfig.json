@@ -3,7 +3,7 @@
     "noImplicitAny": true,
     "preserveConstEnums": true,
     "sourceMap": true,
-    "module": "commonjs",
+    "module": "CommonJS",
     "target": "es6",
     "downlevelIteration": true,
     "emitDecoratorMetadata": true,

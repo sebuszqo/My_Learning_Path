@@ -5,6 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "start": "ts-node index.ts",
+    "build": "tsc",
     "start:dev": "tsnd index.ts",
     "test": "jest"
   },
