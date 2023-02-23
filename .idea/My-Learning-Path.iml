@@ -5,9 +5,9 @@
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
-      <excludeFolder url="file://$MODULE_DIR$/Stage-07-(Advanced)/testing/simple_login_project_with_tests/dist" />
       <excludeFolder url="file://$MODULE_DIR$/Projects/lista-swietego-mikolaja-backend/dist" />
-      <excludeFolder url="file://$MODULE_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/Stage-07-(Advanced)/testing + pm2/lista-swietego-mikolaja-backend-for-testing/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/Stage-07-(Advanced)/testing + pm2/simple_login_project_with_tests/dist" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
