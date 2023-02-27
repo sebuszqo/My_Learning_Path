@@ -10,4 +10,22 @@ We have to use .gitignore
 
 ### commits
 
-git commit -m"Your comment about this commit" 
+git commit -m"Your comment about this commit"
+
+### status
+
+git status
+
+### checking history
+
+git log
+
+git show --color --pretty=format:%b <hash commita>
+
+### going before in history
+
+git reset --hard <hash or tag of commit that we want to go>
+
+git revert <hash or tag of commit that we want to go>
+
+
