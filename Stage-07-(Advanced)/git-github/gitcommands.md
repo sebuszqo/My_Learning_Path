@@ -30,5 +30,11 @@ git revert <hash or tag of commit that we want to go>
 
 ### git commit and git add in one click thanks to webstorm
 
-crtl + alt + K --> git push commit and add in one
+crtl + alt + K --> git push commit and add in one - then crlt + enter to push
 crtl + enter --> git commit and add in one
+
+### new repository
+
+git remote add origin <link to repository>
+git branch -M main
+git push -u origin main 
