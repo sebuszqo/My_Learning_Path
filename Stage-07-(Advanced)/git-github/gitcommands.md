@@ -28,4 +28,6 @@ git reset --hard <hash or tag of commit that we want to go>
 
 git revert <hash or tag of commit that we want to go>
 
+### git commit and git add in one click thanks to webstorm
+
 
