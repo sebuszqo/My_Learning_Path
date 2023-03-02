@@ -37,4 +37,8 @@ crtl + enter --> git commit and add in one
 
 git remote add origin <link to repository>
 git branch -M main
-git push -u origin main 
+git push -u origin main
+
+### git pull
+
+giti merge + conflicts
