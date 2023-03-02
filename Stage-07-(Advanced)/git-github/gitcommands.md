@@ -42,3 +42,11 @@ git push -u origin main
 ### git pull
 
 giti merge + conflicts
+
+### branches
+
+git checkout -b <branch_name>
+
+some commands
+not very useful commands
+sorry they are not useful
