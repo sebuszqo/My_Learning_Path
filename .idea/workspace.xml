@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a19a985-86df-44ac-910a-9268ac4183e3" name="Changes" comment="" />
+    <list default="true" id="2a19a985-86df-44ac-910a-9268ac4183e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +16,12 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="clenup" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Stage-07-(Advanced)/testing + pm2/simple_login_project_with_tests/package.json" root0="FORCE_HIGHLIGHTING" />
@@ -141,10 +147,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.giftRecord.test.ts" />
-        <item itemvalue="Jest.Inserted GiftRecord should have an id" />
-        <item itemvalue="Jest.Not inserted GiftRecord should have no id" />
         <item itemvalue="Jest.Testing simple objects" />
+        <item itemvalue="Jest.Not inserted GiftRecord should have no id" />
+        <item itemvalue="Jest.Inserted GiftRecord should have an id" />
+        <item itemvalue="Jest.giftRecord.test.ts" />
         <item itemvalue="Jest.adds 1 + 2 to equal 4" />
       </list>
     </recent_temporary>
