@@ -46,3 +46,12 @@ giti merge + conflicts
 ### branches
 
 git checkout -b <branch_name>
+
+### git branches etc. gitflow
+
+We should use branches and for example branch named: develop to do more branches
+And then all changes should be merged into main branch
+
+### git tags
+
+git tag <tag name>
