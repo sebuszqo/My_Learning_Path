@@ -62,7 +62,7 @@
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/sebuszqo/.nvm/versions/node/v18.8.0/lib/node_modules/prettier&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/sebuszqo/Desktop/My-Learning-Path/Projects/Warrior-Game/node_modules/typescript/lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/sebuszqo/Desktop/My-Learning-Path/Projects/Lista-Swietego-Mikolaja/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -233,6 +233,7 @@
       <workItem from="1676748304251" duration="32296000" />
       <workItem from="1677501960567" duration="1919000" />
       <workItem from="1677759081151" duration="3997000" />
+      <workItem from="1677932125162" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="git simple commands added, more about git merging conflicts in my notes">
       <created>1677761899910</created>
@@ -320,7 +321,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
