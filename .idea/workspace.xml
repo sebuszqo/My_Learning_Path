@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a19a985-86df-44ac-910a-9268ac4183e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_03_2023,_14_59_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_03_2023__14_59__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,29 +45,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.8.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.8.0&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sebuszqo/Desktop/My-Learning-Path/Stage-07-(Advanced)/testing/simple_login_project_with_tests&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/sebuszqo/Desktop/My-Learning-Path/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/node_modules/jest&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/sebuszqo/.nvm/versions/node/v18.8.0/lib/node_modules/prettier&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/sebuszqo/Desktop/My-Learning-Path/Projects/Lista-Swietego-Mikolaja/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "code.cleanup.on.save": "true",
+    "javascript.nodejs.core.library.configured.version": "18.8.0",
+    "javascript.nodejs.core.library.typings.version": "18.8.0",
+    "last_opened_file_path": "/Users/sebuszqo/Desktop/My-Learning-Path/Stage-07-(Advanced)/testing/simple_login_project_with_tests",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/sebuszqo/Desktop/My-Learning-Path/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/sebuszqo/.nvm/versions/node/v18.8.0/lib/node_modules/prettier",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "/Users/sebuszqo/Desktop/My-Learning-Path/Stage-07-(Advanced)/testing + pm2/lista-swietego-mikolaja-backend-for-testing/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Stage-07-(Advanced)/testing/simple_login_project_with_tests" />
@@ -75,11 +77,11 @@
       <recent name="$PROJECT_DIR$/Stage-06-(React)/my-typescript-react-app/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TypeScript-All-in-One/src" />
+      <recent name="$PROJECT_DIR$/TypeScript-All-in-One" />
       <recent name="$PROJECT_DIR$/Stage-07-(Advanced)/testing/lista-swietego-mikolaja-backend-for-testing/testing-levenshteinDistance" />
       <recent name="$PROJECT_DIR$/Stage-06-(React)/my-typescript-react-app/src/components" />
       <recent name="$PROJECT_DIR$/Stage-06-(React)" />
-      <recent name="$PROJECT_DIR$/Stage-06-(React)/app-after-part-10-of-learning-react/src/ components" />
-      <recent name="$PROJECT_DIR$/Stage-06-(React)/app-after-part-10-of-learning-react/src/ components/array" />
     </key>
   </component>
   <component name="RunManager" selected="Jest.giftRecord.test.ts">
@@ -234,6 +236,10 @@
       <workItem from="1677501960567" duration="1919000" />
       <workItem from="1677759081151" duration="3997000" />
       <workItem from="1677932125162" duration="7000" />
+      <workItem from="1684687918649" duration="8520000" />
+      <workItem from="1684767947616" duration="7756000" />
+      <workItem from="1684832301922" duration="2553000" />
+      <workItem from="1685005564300" duration="5116000" />
     </task>
     <task id="LOCAL-00001" summary="git simple commands added, more about git merging conflicts in my notes">
       <created>1677761899910</created>
